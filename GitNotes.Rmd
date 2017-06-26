@@ -1,0 +1,30 @@
+---
+title: "Git Demo"
+author: "Marian Talbert"
+date: "June 26, 2017"
+output: html_document
+---
+## Why use Git
+- reproducible research
+- keeping code organized
+- collaborating with others
+- backing up work (on hosting servicies like GitHub and Bitbucket)
+- harder to loose work (if git is used correctly)
+- freedom to experiment 
+- understanding when errors were introduced into code (and who introduced them)
+
+## Git with RStudio
+[instructions for markdown with git](https://support.rstudio.com/hc/en-us/articles/200532077?version=0.99.903&mode=desktop)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Git Features 
+ - issues assign tasks to people and tagged
+ - pull request recommends changes 
+
+Git Clients 
+- SourceTree
+- GitGui
