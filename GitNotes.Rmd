@@ -16,8 +16,10 @@ output: html_document
 ## Git with RStudio
 [instructions for markdown with git](https://support.rstudio.com/hc/en-us/articles/200532077?version=0.99.903&mode=desktop)
 
-```{r setup, include=FALSE}
+```{r setup}
 knitr::opts_chunk$set(echo = TRUE)
+plot(1:10,1:10,col=1:10)
+
 ```
 
 
@@ -27,4 +29,14 @@ Git Features
 
 Git Clients 
 - SourceTree
-- GitGui
+- Git Gui
+- RStudio Git client
+
+Git From RStudio
+- Set path to Git in the global options
+
+To download a repo from GitHub 
+- copy url
+- creat a project
+- Start a project (Git in RStudio can only be used in a project)
+
