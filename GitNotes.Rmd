@@ -5,11 +5,11 @@ date: "June 26, 2017"
 output: html_document
 ---
 ## Why use Git
-- reproducible research
+- Reproducible Research
 - keeping code organized
 - collaborating with others
 - backing up work (on hosting servicies like GitHub and Bitbucket)
-- harder to loose work (if git is used correctly)
+- harder to loose work (if Git is used correctly)
 - freedom to experiment 
 - understanding when errors were introduced into code (and who introduced them)
 
@@ -35,8 +35,16 @@ Git Clients
 Git From RStudio
 - Set path to Git in the global options
 
-To download a repo from GitHub 
+Setting up Git
+a couple of steps in the shell
+
+Pushing and pulling from gitHub (https://www.r-bloggers.com/rstudio-and-github/)
+- create a gitHub account
+- create a new repository
+
 - copy url
-- creat a project
+- create a project
 - Start a project (Git in RStudio can only be used in a project)
+- SSH keys
+
 
